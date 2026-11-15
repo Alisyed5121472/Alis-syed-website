@@ -8,6 +8,7 @@ A responsive, single-page starter website using HTML, CSS and JavaScript.
 - `script.js` — mobile menu and product enquiry prefill
 - `assets/ali-syed-profile.jpg` — profile image used in the hero section
 - `assets/ali-syed-custom-banner.jpg` — image above the custom project enquiry section
+- `manifest.webmanifest` and `service-worker.js` — allow installation as a phone app and offline access
 
 ## Run locally
 1. Extract the ZIP file.
@@ -22,6 +23,7 @@ A responsive, single-page starter website using HTML, CSS and JavaScript.
 4. The custom order form uses FormSubmit to email submissions to your business address. Submit it once and confirm the activation email FormSubmit sends you; submissions will not be delivered until you confirm. FormSubmit processes the information entered in the form.
 5. Add your real website URL, social links, terms, privacy policy and contact details.
 6. Test on mobile and desktop before publishing.
+7. After publishing over HTTPS, install the site on a phone: in Android Chrome, use the menu and choose **Install app** or **Add to Home screen**; on iPhone, open it in Safari, tap **Share**, then **Add to Home Screen**. Upload the manifest, service worker, and all three app icon files along with the site files.
 
 ## Google Sites note
 This is a standalone HTML website. It is not automatically installed into your existing Google Sites website. You can host it separately, or embed supported sections in Google Sites. To use it as a full site, publish the files through a static hosting service.
